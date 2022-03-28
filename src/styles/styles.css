@@ -1,0 +1,13 @@
+body {
+  background-image: url(../images/jimbali.png);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
