@@ -45,10 +45,14 @@ ingress:
     - host: jimba.li
       paths:
         - /
+    - host: www.jimba.li
+      paths:
+        - /
   tls:
     - secretName: jimbali-hub-tls
       hosts:
         - jimba.li
+        - www.jimba.li
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
