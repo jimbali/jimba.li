@@ -5,7 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: jimbali/jimbali-hub
+  repository: ghcr.io/jimbali/jimba.li
+  tag: main
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
