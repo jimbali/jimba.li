@@ -1,0 +1,8 @@
+helm:
+  parameters:
+  - name: image.name
+    value: ghcr.io/jimbali/jimba.li
+    forcestring: true
+  - name: image.tag
+    value: main@sha256:e721ba7eba245b23aab9cfcffeeca0115f0828551181263696171891241587f5
+    forcestring: true
