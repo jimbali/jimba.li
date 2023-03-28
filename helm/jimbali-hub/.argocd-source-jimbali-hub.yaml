@@ -4,5 +4,5 @@ helm:
     value: ghcr.io/jimbali/jimba.li
     forcestring: true
   - name: image.tag
-    value: main@sha256:bf703c114a9124300fa4f3ee9bbf4784520558dd85b5c5132dd712697edc4782
+    value: main@sha256:531e00b9dda195a993963d34b83c049a83f718e4b264064f91a99bc78297f5f5
     forcestring: true
